@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #FFF9F2;
+    color: #2D3748;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-heading {
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+    font-weight: 800;
+  }
+
+  .font-kids {
+    font-family: 'Fredoka', cursive, sans-serif;
+  }
+}
+
+@keyframes pulse-cta {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 10px 25px -5px rgba(22, 163, 74, 0.4), 0 8px 10px -6px rgba(22, 163, 74, 0.4);
+  }
+  50% {
+    transform: scale(1.02);
+    box-shadow: 0 20px 30px -5px rgba(22, 163, 74, 0.6), 0 10px 12px -5px rgba(22, 163, 74, 0.5);
+  }
+}
+
+@keyframes pulse-orange {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 10px 25px -5px rgba(234, 88, 12, 0.4);
+  }
+  50% {
+    transform: scale(1.02);
+    box-shadow: 0 20px 30px -5px rgba(234, 88, 12, 0.6);
+  }
+}
+
+.animate-pulse-cta {
+  animation: pulse-cta 2.2s infinite ease-in-out;
+}
+
+.animate-pulse-orange {
+  animation: pulse-orange 2.2s infinite ease-in-out;
+}
+

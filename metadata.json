@@ -1,0 +1,6 @@
+{
+  "name": "Kit Reforço Nota 10",
+  "description": "Página de vendas de alta conversão para o Kit Reforço Nota 10 - atividades pedagógicas de reforço escolar.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
